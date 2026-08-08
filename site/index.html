@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Localization Studio — APPNEURAL</title>
+<meta name="description" content="Translate and manage i18n strings, glossaries, and translation memory. Package language bundles, adapt RTL layouts and regional content, localize subtitles and voiceovers, review machine translations, and run linguistic QA before launch.">
+<style>
+:root {
+  --bg: #0b0d12;
+  --panel: #12151c;
+  --border: #1f2430;
+  --text: #e8eaf0;
+  --muted: #9aa2b1;
+  --accent: #7c9cff;
+  --accent-2: #57e0c4;
+  --new: #57e0c4;
+  --gap: #f0a35b;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f6f7fb;
+    --panel: #ffffff;
+    --border: #e4e7ef;
+    --text: #171a21;
+    --muted: #5b6270;
+    --accent: #4a63e0;
+    --accent-2: #0f9e82;
+    --new: #0f9e82;
+    --gap: #b1650f;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+  line-height: 1.55;
+}
+.wrap { max-width: 880px; margin: 0 auto; padding: 56px 24px 96px; }
+.eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+h1 { font-size: 40px; margin: 0 0 8px; letter-spacing: -0.02em; }
+.tagline { font-size: 18px; color: var(--muted); margin: 0 0 28px; }
+.desc { font-size: 16px; color: var(--text); max-width: 68ch; margin: 0 0 40px; }
+.grid-links { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px; }
+.grid-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  background: var(--panel);
+}
+.grid-links a.primary { background: var(--accent); color: #0b0d12; border-color: var(--accent); }
+section { margin-bottom: 44px; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 18px; font-weight: 600; }
+.cat { font-size: 15px; font-weight: 600; margin: 20px 0 10px; color: var(--text); }
+.cat:first-child { margin-top: 0; }
+.editor-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.editor-card {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.editor-card .name { font-weight: 600; font-size: 14px; margin-bottom: 3px; }
+.editor-card .desc { font-size: 13px; color: var(--muted); margin: 0; max-width: none; }
+.svc-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.svc {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12.5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+}
+.svc.st-new { border-color: var(--new); color: var(--new); }
+.svc.st-gap { border-color: var(--gap); color: var(--gap); opacity: .85; }
+.baseline-note { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+footer { border-top: 1px solid var(--border); padding-top: 24px; margin-top: 56px; font-size: 13px; color: var(--muted); }
+footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="eyebrow">APPNEURAL Studios</span>
+  <h1>Localization Studio</h1>
+  <p class="tagline">Translation, i18n and regional content</p>
+  <p class="desc">Translate and manage i18n strings, glossaries, and translation memory. Package language bundles, adapt RTL layouts and regional content, localize subtitles and voiceovers, review machine translations, and run linguistic QA before launch.</p>
+
+  <div class="grid-links">
+    <a class="primary" href="https://studios.appneural.com">All Studios</a>
+    <a href="https://github.com/APPNEURAL-Studios/localization-studio">GitHub Repo</a>
+  </div>
+
+  <section>
+    <h2>Editors (14)</h2>
+    <div class="editor-list"><div class="editor-card"><div class="name">Translation Editor</div><p class="desc">String translation and review</p></div>
+<div class="editor-card"><div class="name">Locale String Editor</div><p class="desc">Key-value i18n string management</p></div>
+<div class="editor-card"><div class="name">Glossary Editor</div><p class="desc">Terminology and brand-term glossary</p></div>
+<div class="editor-card"><div class="name">Translation Memory Editor</div><p class="desc">Reusable translation segment management</p></div>
+<div class="editor-card"><div class="name">Language Pack Editor</div><p class="desc">Locale bundle packaging</p></div>
+<div class="editor-card"><div class="name">RTL Layout Editor</div><p class="desc">Right-to-left layout adjustments</p></div>
+<div class="editor-card"><div class="name">Regional Content Editor</div><p class="desc">Locale-specific content variants</p></div>
+<div class="editor-card"><div class="name">Currency/Format Editor</div><p class="desc">Locale-based number/date/currency formatting</p></div>
+<div class="editor-card"><div class="name">Translation Workflow Editor</div><p class="desc">Translator assignment and review flow</p></div>
+<div class="editor-card"><div class="name">Machine Translation Review Editor</div><p class="desc">MT output post-editing</p></div>
+<div class="editor-card"><div class="name">Voiceover Localization Editor</div><p class="desc">Dubbed audio localization</p></div>
+<div class="editor-card"><div class="name">Subtitle Localization Editor</div><p class="desc">Multi-language subtitle management</p></div>
+<div class="editor-card"><div class="name">Locale QA Editor</div><p class="desc">Linguistic quality assurance checks</p></div>
+<div class="editor-card"><div class="name">Market Launch Checklist Editor</div><p class="desc">Region launch readiness tracking</p></div></div>
+  </section>
+
+  <section>
+    <h2>Microservices Used</h2>
+    <p class="baseline-note">Platform baseline (common to every app &amp; studio):</p>
+    <div class="svc-list"><span class="svc">gateway-service</span>
+<span class="svc">authentication-service</span>
+<span class="svc">identity-service</span>
+<span class="svc">access-service</span>
+<span class="svc">security-service</span>
+<span class="svc">audit-service</span>
+<span class="svc">observability-service</span>
+<span class="svc">control-service</span>
+<span class="svc">deployment-service</span>
+<span class="svc">integration-service</span>
+<span class="svc">storage-service</span>
+<span class="svc">reporting-service</span>
+<span class="svc">analytics-service</span>
+<span class="svc">notification-service</span></div>
+    <p class="baseline-note" style="margin-top:18px;">Functional services (7):</p>
+    <div class="svc-list"><span class="svc st-gap">localization-service</span>
+<span class="svc st-core">knowledge-service</span>
+<span class="svc st-core">document-service</span>
+<span class="svc st-new">media-service</span>
+<span class="svc st-core">publishing-service</span>
+<span class="svc st-core">workflow-service</span>
+<span class="svc st-core">model-service</span></div>
+  </section>
+
+  <footer>
+    <a href="https://studios.appneural.com">studios.appneural.com</a> · part of the APPNEURAL platform
+  </footer>
+</div>
+</body>
+</html>
