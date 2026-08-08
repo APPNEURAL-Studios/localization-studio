@@ -1,0 +1,109 @@
+{
+  "slug": "localization-studio",
+  "host": "localization",
+  "title": "Localization Studio",
+  "tagline": "Translation, i18n and regional content",
+  "description": "Translate and manage i18n strings, glossaries, and translation memory. Package language bundles, adapt RTL layouts and regional content, localize subtitles and voiceovers, review machine translations, and run linguistic QA before launch.",
+  "editors": [
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Translation Editor",
+      "desc": "String translation and review"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Locale String Editor",
+      "desc": "Key-value i18n string management"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Glossary Editor",
+      "desc": "Terminology and brand-term glossary"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Translation Memory Editor",
+      "desc": "Reusable translation segment management"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Language Pack Editor",
+      "desc": "Locale bundle packaging"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "RTL Layout Editor",
+      "desc": "Right-to-left layout adjustments"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Regional Content Editor",
+      "desc": "Locale-specific content variants"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Currency/Format Editor",
+      "desc": "Locale-based number/date/currency formatting"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Translation Workflow Editor",
+      "desc": "Translator assignment and review flow"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Machine Translation Review Editor",
+      "desc": "MT output post-editing"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Voiceover Localization Editor",
+      "desc": "Dubbed audio localization"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Subtitle Localization Editor",
+      "desc": "Multi-language subtitle management"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Locale QA Editor",
+      "desc": "Linguistic quality assurance checks"
+    },
+    {
+      "category": "Localization & Translation Editors",
+      "name": "Market Launch Checklist Editor",
+      "desc": "Region launch readiness tracking"
+    }
+  ],
+  "services": [
+    [
+      "localization",
+      "gap"
+    ],
+    [
+      "knowledge",
+      "core"
+    ],
+    [
+      "document",
+      "core"
+    ],
+    [
+      "media",
+      "new"
+    ],
+    [
+      "publishing",
+      "core"
+    ],
+    [
+      "workflow",
+      "core"
+    ],
+    [
+      "model",
+      "core"
+    ]
+  ]
+}
